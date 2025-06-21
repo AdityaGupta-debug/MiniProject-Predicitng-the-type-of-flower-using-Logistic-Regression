@@ -10,8 +10,6 @@ It contains measurements of 150 iris flowers, divided evenly across three specie
 
 🔴 Iris-virginica
 
-The dataset is small, clean, and ideal for beginners who want to understand how machine learning models work on a simple classification problem. 🧠📈
-
 📦 Content
 Each row in the dataset represents an individual flower and includes four measured features and one target label (the species). There are no missing values, and all features are numerical and measured in centimeters.
 
