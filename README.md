@@ -1,6 +1,6 @@
-## 📊 About the Dataset – Iris Flower Classification
+# 🌸 Iris Flower Classification
 
-### 🌸 Context
+## 📊 About the Dataset
 
 The **Iris dataset** is one of the most well-known datasets in the fields of **machine learning** and **statistics**.  
 Originally introduced by **Sir Ronald A. Fisher** in 1936, it's widely used for tasks like **classification**, **data visualization**, and **pattern recognition**. 🌿
@@ -13,7 +13,7 @@ The dataset contains measurements of **150 iris flowers**, evenly distributed ac
 
 ---
 
-### 📦 Content
+## 📦 Dataset Content
 
 Each row in the dataset represents an individual flower and contains:
 
@@ -24,17 +24,47 @@ There are **no missing values**, making it an ideal dataset for beginners and mo
 
 ---
 
-### 🧾 Column Descriptions
+## 🧾 Column Descriptions
 
 - 📏 `sepal_length` – Length of the sepal in cm (outer part that protects petals)  
 - 📐 `sepal_width` – Width of the sepal in cm  
 - 🌼 `petal_length` – Length of the petal in cm (colorful, inner part of the flower)  
 - 🌼 `petal_width` – Width of the petal in cm  
 - 🏷️ `species` – The iris flower species (target variable):  
-  - *Iris-setosa* 🟣  
-  - *Iris-versicolor* 🔵  
-  - *Iris-virginica* 🔴  
+  - *Iris-setosa* 🟣  
+  - *Iris-versicolor* 🔵  
+  - *Iris-virginica* 🔴  
 
 ---
 
-This dataset is ideal for building simple **classification models**, practicing **EDA**, and learning **multi-class classification techniques**.
+## 🧠 Model Performance
+
+I trained a **Logistic Regression** model on the Iris dataset to classify the flower species.  
+Here are the results:
+
+- ✅ **Baseline Accuracy**: **97%** using default Logistic Regression  
+- 🛠️ **After Hyperparameter Tuning** with `GridSearchCV`:  
+  - 🚀 **Final Accuracy**: **99.1%**
+
+---
+
+## 💡 Highlights
+
+- Performed **Exploratory Data Analysis (EDA)**  
+- Built a clean and efficient **classification pipeline**  
+- Tuned hyperparameters to boost performance  
+- Achieved near-perfect accuracy on a classic dataset
+
+---
+
+## 📚 Technologies Used
+
+- Python 🐍  
+- Scikit-learn 🤖  
+- Pandas 📊  
+- Matplotlib & Seaborn 📈  
+
+---
+
+## 📁 Project Structure
+
